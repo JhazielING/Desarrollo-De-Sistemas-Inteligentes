@@ -40,3 +40,17 @@
 9. **Complejidad en tiempo:** Es una medida de la cantidad de operaciones o del tiempo de ejecución que necesita un algoritmo para resolver un problema, según el tamaño de la búsqueda.
 
 10. **Complejidad en espacio:** Es la cantidad de memoria que necesita un algoritmo para almacenar los nodos, estados y demás información durante el proceso de búsqueda.
+
+
+
+**1: Breadth First Search (BFS): Explora los caminos por niveles, revisando primero los puntos más cercanos al inicio hasta encontrar el destino.**
+
+![[Captura de pantalla 2026-10-08 181523.png]]
+
+
+**2: Best First Search: Selecciona el siguiente punto según una estimación de qué tan cerca se encuentra del destino, buscando llegar a él de manera más directa.**
+![[Captura de pantalla 2026-10-08 181608.png]]
+
+
+**3: Dijkstra: Encuentra el camino de menor costo desde el punto A hasta el punto B, considerando la distancia o el peso de cada conexión.**
+![[Captura de pantalla 2026-10-08 181706.png]]
