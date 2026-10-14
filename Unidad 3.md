@@ -54,3 +54,45 @@
 
 **3: Dijkstra: Encuentra el camino de menor costo desde el punto A hasta el punto B, considerando la distancia o el peso de cada conexión.**
 ![[Captura de pantalla 2026-10-08 181706.png]]
+
+
+
+
+
+**Actividad 3.2:**
+
+## (Manhattan, sin diagonal)
+
+***1: ¿Qué longitud tiene el camino?*** 
+Tiene una longitud de **29**.
+
+**2: ¿Cuánto tiempo tardó?****  
+Tardó **0.2000 ms**, con 301 operaciones. Fue el más rápido de los tres.
+
+**3: ¿Qué diferencia observas?****  
+Explora solo una zona pequeña del mapa, concentrada entre el inicio y la meta. Esto pasa porque la heurística Manhattan lo guía hacia el nodo rojo. Con eso llega al mismo largo de camino que BFS sin diagonal (29), pero con unas 8 veces menos operaciones (301 contra 2331).
+![[Captura de pantalla 2026-10-14 155307.png]]
+
+## Breadth-First-Search (con Allow Diagonal)
+
+**1: ¿Qué longitud tiene el camino?**
+Tiene una longitud de **23.14**.
+
+**2: ¿Cuánto tiempo tardó?**
+Tardó **1.5000 ms**, con 1985 operaciones. Fue el más lento de los tres.
+
+**3: ¿Qué diferencia observas?**  
+Es el único con camino **más corto** (23.14) y con **líneas inclinadas**, porque puede cortar en diagonal. Cada diagonal cuesta aprox. 1.41 en vez de 2 movimientos rectos. A cambio tardó más, porque cada nodo revisa hasta 8 vecinos. Además, el área explorada es muy grande, ya que BFS no sabe dónde está la meta.
+![[Captura de pantalla 2026-10-14 155356 1.png]]
+
+## Breadth-First-Search (sin diagonal)
+
+**1: ¿Qué longitud tiene el camino?**  
+Tiene una longitud de **29**.
+
+**2: ¿Cuánto tiempo tardó?**
+Tardó **0.4000 ms**, con 2331 operaciones.
+
+**3: ¿Qué diferencia observas?**  
+Es el que **más nodos exploró** (2331), con un área celeste enorme en forma de círculo o rombo que se expande en todas direcciones. El camino va en forma de escalera, solo con movimientos rectos. Tiene la misma longitud que A* (29), pero A* llegó ahí explorando mucho menos.
+![[Captura de pantalla 2026-10-14 155424.png]]
