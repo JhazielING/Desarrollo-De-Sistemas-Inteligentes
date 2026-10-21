@@ -96,3 +96,30 @@ Tardó **0.4000 ms**, con 2331 operaciones.
 **3: ¿Qué diferencia observas?**  
 Es el que **más nodos exploró** (2331), con un área celeste enorme en forma de círculo o rombo que se expande en todas direcciones. El camino va en forma de escalera, solo con movimientos rectos. Tiene la misma longitud que A* (29), pero A* llegó ahí explorando mucho menos.
 ![[Captura de pantalla 2026-10-14 155424.png]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+**Actividad 3.4:**
+
+**1:¿Que relación las gpus con las redes neuronales y las neuronas? Como se beneficiaron un de otra?**
+Las GPU se relacionan con las redes neuronales porque permiten realizar muchos cálculos al mismo tiempo, lo que ayuda a entrenarlas de manera más rápida. Las redes neuronales están inspiradas en las neuronas del cerebro humano, ya que procesan información y aprenden a reconocer patrones. Las GPU se beneficiaron de las redes neuronales porque aumentó su uso y desarrollo, mientras que las redes neuronales aprovecharon la potencia de las GPU para mejorar su aprendizaje y rendimiento.
+
+**Actividad 3.5:** Diagrama redes neuronales
+![[Captura de pantalla 2026-10-21 163038.png|700]]
